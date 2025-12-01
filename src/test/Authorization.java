@@ -9,7 +9,9 @@ import org.testng.annotations.Test;
 public class Authorization {
 	@BeforeClass
 	public void LogOut() {
-		System.out.println("Before Class");
+		System.out.println("Before Class method");
+		System.out.println("Before Class method 2");
+
 	};
 	
 	@AfterTest
