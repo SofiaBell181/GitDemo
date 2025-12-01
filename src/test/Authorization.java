@@ -12,6 +12,11 @@ public class Authorization {
 		System.out.println("Before Class method");
 		System.out.println("Before Class method 2");
 
+		System.out.println("Before Class method 3");
+		System.out.println("Before Class method 4");
+		System.out.println("Before Class method 5");
+		System.out.println("Before Class method 6");
+
 	};
 	
 	@AfterTest

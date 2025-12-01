@@ -10,11 +10,11 @@
 		<parameter name="apikey" value="dftgf1234@#$" />
 
 	<test name="Regression">
-		<!--<groups>
+		<groups>
 			<run>
 				<include name="Smoketest"></include>
 			</run>
-		</groups> -->
+		</groups> 
 		<classes>
 			<class name="test.DownloadItems"></class>
 			<class name="test.MiddleFunctional"></class>
