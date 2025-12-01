@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-07T09:56:24 CET" name="Suite" finished-at="2025-11-07T09:56:24 CET" duration-ms="293">
+    <groups>
+      <group name="Smoketest">
+        <method signature="MiddleFunctional.CheckLinks()[pri:0, instance:test.MiddleFunctional@65d09a04]" name="CheckLinks" class="test.MiddleFunctional"/>
+      </group> <!-- Smoketest -->
+    </groups>
+    <test started-at="2025-11-07T09:56:24 CET" name="testFirst" finished-at="2025-11-07T09:56:24 CET" duration-ms="126">
+      <class name="test.Authorization">
+        <test-method is-config="true" signature="SignUp()[pri:0, instance:test.Authorization@5bda8e08]" started-at="2025-11-07T09:56:24 CET" name="SignUp" finished-at="2025-11-07T09:56:24 CET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUp -->
+        <test-method is-config="true" signature="LogOut()[pri:0, instance:test.Authorization@5bda8e08]" started-at="2025-11-07T09:56:24 CET" name="LogOut" finished-at="2025-11-07T09:56:24 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+        <test-method signature="SignIn()[pri:0, instance:test.Authorization@5bda8e08]" started-at="2025-11-07T09:56:24 CET" name="SignIn" finished-at="2025-11-07T09:56:24 CET" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignIn -->
+        <test-method is-config="true" signature="SignOut()[pri:0, instance:test.Authorization@5bda8e08]" started-at="2025-11-07T09:56:24 CET" name="SignOut" finished-at="2025-11-07T09:56:24 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignOut -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:test.Authorization@5bda8e08]" started-at="2025-11-07T09:56:24 CET" name="Login" finished-at="2025-11-07T09:56:24 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- test.Authorization -->
+      <class name="test.MainFunctional">
+        <test-method signature="DeleteOneItem()[pri:0, instance:test.MainFunctional@51399530]" started-at="2025-11-07T09:56:24 CET" name="DeleteOneItem" finished-at="2025-11-07T09:56:24 CET" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteOneItem -->
+        <test-method signature="DeleteTwoItems()[pri:0, instance:test.MainFunctional@51399530]" started-at="2025-11-07T09:56:24 CET" name="DeleteTwoItems" finished-at="2025-11-07T09:56:24 CET" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteTwoItems -->
+        <test-method signature="GetItems()[pri:0, instance:test.MainFunctional@51399530]" started-at="2025-11-07T09:56:24 CET" name="GetItems" finished-at="2025-11-07T09:56:24 CET" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetItems -->
+        <test-method signature="DeleteItems()[pri:0, instance:test.MainFunctional@51399530]" started-at="2025-11-07T09:56:24 CET" name="DeleteItems" finished-at="2025-11-07T09:56:24 CET" depends-on-methods="test.MainFunctional.DeleteOneItem, test.MainFunctional.GetItems" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteItems -->
+      </class> <!-- test.MainFunctional -->
+    </test> <!-- testFirst -->
+    <test started-at="2025-11-07T09:56:24 CET" name="testSecond" finished-at="2025-11-07T09:56:24 CET" duration-ms="53">
+      <class name="test.MiddleFunctional">
+        <test-method is-config="true" signature="FirstMethod()[pri:0, instance:test.MiddleFunctional@65d09a04]" started-at="2025-11-07T09:56:24 CET" name="FirstMethod" finished-at="2025-11-07T09:56:24 CET" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstMethod -->
+        <test-method is-config="true" signature="BeforeEveryMethod()[pri:0, instance:test.MiddleFunctional@65d09a04]" started-at="2025-11-07T09:56:24 CET" name="BeforeEveryMethod" finished-at="2025-11-07T09:56:24 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeEveryMethod -->
+        <test-method signature="CheckFooter()[pri:0, instance:test.MiddleFunctional@65d09a04]" started-at="2025-11-07T09:56:24 CET" name="CheckFooter" finished-at="2025-11-07T09:56:24 CET" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckFooter -->
+        <test-method is-config="true" signature="FillForm()[pri:0, instance:test.MiddleFunctional@65d09a04]" started-at="2025-11-07T09:56:24 CET" name="FillForm" finished-at="2025-11-07T09:56:24 CET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm -->
+        <test-method is-config="true" signature="BeforeEveryMethod()[pri:0, instance:test.MiddleFunctional@65d09a04]" started-at="2025-11-07T09:56:24 CET" name="BeforeEveryMethod" finished-at="2025-11-07T09:56:24 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeEveryMethod -->
+        <test-method signature="CheckHeader(java.lang.String,java.lang.String)[pri:0, instance:test.MiddleFunctional@65d09a04]" started-at="2025-11-07T09:56:24 CET" name="CheckHeader" finished-at="2025-11-07T09:56:24 CET" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.youtube.com/watch?v=fsfaW7MokzQ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123455]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckHeader -->
+        <test-method is-config="true" signature="FillForm()[pri:0, instance:test.MiddleFunctional@65d09a04]" started-at="2025-11-07T09:56:24 CET" name="FillForm" finished-at="2025-11-07T09:56:24 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm -->
+        <test-method is-config="true" signature="BeforeEveryMethod()[pri:0, instance:test.MiddleFunctional@65d09a04]" started-at="2025-11-07T09:56:24 CET" name="BeforeEveryMethod" finished-at="2025-11-07T09:56:24 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeEveryMethod -->
+        <test-method signature="CheckLinks()[pri:0, instance:test.MiddleFunctional@65d09a04]" started-at="2025-11-07T09:56:24 CET" name="CheckLinks" finished-at="2025-11-07T09:56:24 CET" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLinks -->
+        <test-method is-config="true" signature="FillForm()[pri:0, instance:test.MiddleFunctional@65d09a04]" started-at="2025-11-07T09:56:24 CET" name="FillForm" finished-at="2025-11-07T09:56:24 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm -->
+      </class> <!-- test.MiddleFunctional -->
+    </test> <!-- testSecond -->
+  </suite> <!-- Suite -->
+</testng-results>

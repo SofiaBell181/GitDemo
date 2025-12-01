@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+<listener class-name="test.Listeners" />
+</listeners>
+
+	<parameter name="url" value="https://testng.org/#_dependencies" />
+		<parameter name="apikey" value="dftgf1234@#$" />
+
+	<test name="Regression">
+		<!--<groups>
+			<run>
+				<include name="Smoketest"></include>
+			</run>
+		</groups> -->
+		<classes>
+			<class name="test.DownloadItems"></class>
+			<class name="test.MiddleFunctional"></class>
+		</classes>
+	</test>
+
+
+</suite> 

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+	<test name="testFirst">
+		<classes>
+			<class name="test.MainFunctional"/>
+			<class name="test.Authorization"></class>
+		</classes>
+	</test>
+
+	<test name="testSecond">
+	<parameter name="url" value="https://www.youtube.com/watch?v=fsfaW7MokzQ"/>
+	<parameter name="apiKey" value="123455"/>
+
+		<classes>
+			<class name="test.MiddleFunctional" />
+		</classes>
+	</test>
+
+</suite> 

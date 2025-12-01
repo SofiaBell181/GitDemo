@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="testSecond(failed)">
+    <parameter name="apiKey" value="123455"/>
+    <parameter name="url" value="https://www.youtube.com/watch?v=fsfaW7MokzQ"/>
+    <classes>
+      <class name="test.MiddleFunctional">
+        <methods>
+          <include name="FirstMethod"/>
+          <include name="BeforeEveryMethod"/>
+          <include name="CheckHeader"/>
+          <include name="FillForm"/>
+        </methods>
+      </class> <!-- test.MiddleFunctional -->
+    </classes>
+  </test> <!-- testSecond(failed) -->
+</suite> <!-- Failed suite [Suite] -->
