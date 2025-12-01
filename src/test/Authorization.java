@@ -10,28 +10,22 @@ public class Authorization {
 	@BeforeClass
 	public void LogOut() {
 		System.out.println("Before Class method");
-		System.out.println("Before Class method 2");
-
-		System.out.println("Before Class method 3");
-		System.out.println("Before Class method 4");
-		System.out.println("Before Class method 5");
-		System.out.println("Before Class method 6");
 
 	};
 	
 	@AfterTest
 	public void Login() {
-		System.out.println("you are Login");
+		System.out.println("You are Login");
 	}
 	
 	@Test(timeOut=4000)
 	public void SignIn() {
-		System.out.println("you are SignIn");
+		System.out.println("You are SignIn");
 	}
 	
 	@BeforeTest
 	public void SignUp() {
-		System.out.println("you are SignUp");
+		System.out.println("You are SignUp");
 	}
 	
 	@AfterClass void SignOut() {
