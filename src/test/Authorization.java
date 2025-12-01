@@ -23,6 +23,11 @@ public class Authorization {
 		System.out.println("You are SignIn");
 	}
 	
+	@Test
+	public void ChangePassword() {
+		System.out.println("Change your password here");
+	}
+	
 	@BeforeTest
 	public void SignUp() {
 		System.out.println("You are SignUp");
